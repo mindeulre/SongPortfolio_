@@ -680,7 +680,7 @@ header .right-box > nav > a:hover {
 }
 
 
-.all-my-design-section > .card-design-box > .card-design-box_con > .card-design > img {
+.all-my-design-section > .card-design-box > .card-design-box_con > .card-design > a > img {
   width: 320px;
   height: 320px;
   vertical-align: bottom;
