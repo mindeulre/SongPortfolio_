@@ -354,7 +354,278 @@ header .right-box > nav > a:hover {
 }
 /* .my-tag-list-section 끝*/
 
+/* resume-section 시작 */
+.resume-skills_section  {
+  margin-bottom: 250px;
+}
+.resume-skills_section > .container {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
 
+/* 왼쪽 이력서 */
+.resume-skills_section .left-box_resume {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* 보드 이미지 */
+.resume-skills_section .left-box_resume > .resume-box {
+  background-image: url("https://i.imgur.com/2yuX0vG.png");
+  width: 522px;
+  height: 800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.resume-skills_section .left-box_resume > .resume-box > .main-text-box {
+  width: 440px; height: 520px;
+  margin-top: 200px;
+  margin-left: 34px;
+}
+
+.resume-skills_section .left-box_resume .main-text-box > .title-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: #5C5C5C;
+  margin-bottom: 20px;
+}
+
+.resume-skills_section .left-box_resume .main-text-box > .text-box_top {
+  margin: 0 10px;
+  position: relative;
+}
+
+.resume-skills_section .text-box_top > .profile-img-box {
+  position: absolute;
+  left: 5px;
+}
+
+.resume-skills_section .text-box_top > .profile-img-box > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.resume-skills_section .text-box_top > .name-text-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.resume-skills_section .text-box_top > .name-text-box > .bg-box {
+  width: 250px;
+  height: 45px;
+  background-color: #FBDCAE;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.resume-skills_section .text-box_top > .name-text-box > .bg-box > p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5c5c5c;
+}
+
+
+.resume-skills_section .text-box_top > .EE-text-box {
+  margin-bottom: 50px;
+} 
+.resume-skills_section .text-box_top > .EE-text-box > .bg-box {
+  background-color: #FBDCAE;
+  height: 192px;
+  border-radius: 20px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.resume-skills_section .text-box_top > .EE-text-box > .bg-box p {
+  color: #5C5C5C;
+  margin-bottom: 7px;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.resume-skills_section .text-box_top > .EE-text-box > .bg-box > .EDU-text-box {
+  margin-bottom: 20px;
+}
+
+.resume-skills_section .text-box_top > .EE-text-box > .bg-box .EDU-title-text  {
+  font-size: 16px;
+  font-weight: 800;
+}
+.resume-skills_section .text-box_top > .EE-text-box > .bg-box .EXP-title-text {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.resume-skills_section .text-box_bottom {
+  margin: 0 10px;
+}
+.resume-skills_section .text-box_bottom > .bottom-bg-box {
+  background-color: #FBDCAE;
+  height: 140px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5C5C5C;
+}
+
+.resume-skills_section .text-box_bottom > .bottom-bg-box strong {
+  white-space: nowrap;
+  position: relative;
+  color: #FBDCAE;
+}
+
+strong::before {
+  content: "문제해결 능력과 소통 능력을 키웠습니다.";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  color: black;
+  overflow: hidden;
+  border-right: 1px solid black;
+  animation: typing 10s steps(35) infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* 오른쪽 Skills */
+.resume-skills_section .right-box_skills {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.resume-skills_section .skiils-con-box > .text-box {
+  font-family: 'Paytone One', sans-serif;
+  color: #197813;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-skills_section .skiils-con-box > .text-box > span {
+  font-size: 36px;
+}
+
+.resume-skills_section .skiils-con-box > .text-box > p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.resume-skills_section .skiils-con-box .skiils-info-list-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .skill-box {
+  margin-bottom: 25px;
+}
+
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .skill-box > .text-box {
+  width: 590px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;  
+  margin-bottom: 10px;
+}
+
+
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .skill-box > .bg-color-box {
+  position: relative;
+}
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .skill-box > .bg-color-box > .bg-color_1 {
+  width: 600px;
+  height: 30px;
+  background-color: red;
+  border-radius: 100px;
+}
+
+/* 리스트 백그라운드 컬러 커스텀_1 */
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .PS-skill-box > .bg-color-box > .bg-color_1 {
+   background-color: #DBE4EC;
+}
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .Illus-skill-box > .bg-color-box > .bg-color_1 {
+   background-color: #FEF2D4;
+}
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .Figma-skill-box > .bg-color-box > .bg-color_1 {
+   background-color: #FFDEDE;
+}
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .HTML-skill-box > .bg-color-box > .bg-color_1 {
+   background-color: #E3F3E2;
+}
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .CSS-skill-box > .bg-color-box > .bg-color_1 {
+   background-color: #FDE9FF;
+}
+.resume-skills_section .skiils-con-box .skiils-info-list-box > .JS-skill-box > .bg-color-box > .bg-color_1 {
+   background-color: #FFF;
+}
+
+
+.resume-skills_section .skill-box > .bg-color-box > .bg-color_2 {
+  width: 480px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+}
+
+/* 리스트 백그라운드 컬러 커스텀_2 */
+.resume-skills_section .PS-skill-box > .bg-color-box > .bg-color_2 {
+   background-color: #64A2FF;
+}
+.resume-skills_section .Illus-skill-box > .bg-color-box > .bg-color_2 {
+  background-color: #EEBB3A;
+}
+.resume-skills_section .Figma-skill-box > .bg-color-box > .bg-color_2 {
+  background-color: #F99393;
+}
+.resume-skills_section .HTML-skill-box > .bg-color-box > .bg-color_2 {
+  background-color: #90B08E;
+  width: 420px;
+}
+.resume-skills_section .CSS-skill-box > .bg-color-box > .bg-color_2 {
+  background-color: #FAC5FF;
+  width: 420px;
+}
+.resume-skills_section .JS-skill-box > .bg-color-box > .bg-color_2 {
+  background-color: #D1D1D1;
+  width: 360px;
+}
+
+.resume-skills_section .skill-box > .bg-color-box > .bg-color_2 > p {
+  margin-left: 15px;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* resume-section 끝 */
 
 
 
