@@ -88,8 +88,11 @@ header .right-box > nav > a:hover {
 /* .main-section 시작 */
 .main-section {
   padding-top: 80px;
-  /* 수정 */
   margin-bottom: 250px;
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .main-section>.container {
