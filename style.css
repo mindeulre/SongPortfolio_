@@ -389,7 +389,7 @@ header .right-box > nav > a:hover {
 .resume-skills_section .left-box_resume > .resume-box > .main-text-box {
   width: 440px; height: 520px;
   margin-top: 200px;
-  margin-left: 34px;
+  margin-left: 36px;
 }
 
 .resume-skills_section .left-box_resume .main-text-box > .title-text {
@@ -474,13 +474,14 @@ header .right-box > nav > a:hover {
 }
 .resume-skills_section .text-box_bottom > .bottom-bg-box {
   background-color: #FBDCAE;
-  height: 140px;
+  height: 160px;
   border-radius: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #5C5C5C;
+  letter-spacing: 0.1rem;
 }
 
 .resume-skills_section .text-box_bottom > .bottom-bg-box strong {
